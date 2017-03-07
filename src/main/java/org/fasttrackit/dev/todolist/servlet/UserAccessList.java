@@ -79,7 +79,7 @@ public class UserAccessList {
 
 
             // 2. define connection params to db
-            final String URL = "jdbc:postgresql://54.93.65.5:5432/5NumePrenume";
+            final String URL = "jdbc:postgresql://54.93.65.5:5432/5alina";
             final String USERNAME = "fasttrackit_dev";
             final String PASSWORD = "fasttrackit_dev";
 
@@ -128,7 +128,7 @@ public class UserAccessList {
 
 
             // 2. define connection params to db
-            final String URL = "jdbc:postgresql://54.93.65.5:5432/5NumePrenume";
+            final String URL = "jdbc:postgresql://54.93.65.5:5432/5alina";
             final String USERNAME = "fasttrackit_dev";
             final String PASSWORD = "fasttrackit_dev";
 

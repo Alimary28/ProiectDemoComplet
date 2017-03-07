@@ -27,7 +27,7 @@ public class AccessTaskList {
 
 
             // 2. define connection params to db
-            final String URL = "jdbc:postgresql://54.93.65.5:5432/5NumePrenume";
+            final String URL = "jdbc:postgresql://54.93.65.5:5432/5alina";
             final String USERNAME = "fasttrackit_dev";
             final String PASSWORD = "fasttrackit_dev";
 
@@ -41,7 +41,9 @@ public class AccessTaskList {
             // 5. execute a query
 
             PreparedStatement st = conn.prepareStatement(query);
-            st.setInt(1, iduser);
+           // st.setInt(1, iduser);
+
+            st.setInt(1 ,iduser);
             ResultSet rs = st.executeQuery();
 
             // 6. iterate the result set and print the values
@@ -81,7 +83,7 @@ public class AccessTaskList {
         // inchid conex
 
 
-        final String URL = "jdbc:postgresql://54.93.65.5:5432/5NumePrenume";
+        final String URL = "jdbc:postgresql://54.93.65.5:5432/5alina";
         final String USERNAME = "fasttrackit_dev";
 
         final String PASSWORD = "fasttrackit_dev";
@@ -126,7 +128,7 @@ public class AccessTaskList {
         // inchid conex
 
 
-        final String URL = "jdbc:postgresql://54.93.65.5:5432/5NumePrenume";
+        final String URL = "jdbc:postgresql://54.93.65.5:5432/5alina";
         final String USERNAME = "fasttrackit_dev";
 
         final String PASSWORD = "fasttrackit_dev";

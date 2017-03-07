@@ -1,7 +1,7 @@
 package org.fasttrackit.dev.todolist.servlet;
 
 
-
+import org.fasttrackit.dev.todolist.Util;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -28,9 +28,12 @@ public class RegisterServlet extends HttpServlet {
 
                 UserAccessList ual = new UserAccessList();
 
+        String hash = Util.hash(password);
 
 
-        ual.insertUser(username, password); // insert into users (?,?) ....
+
+       // ual.insertUser(username, password); // insert into users (?,?) ....
+        ual.insertUser(username, hash); // insert into users (?,?) ....
 
         // intoarcere la login
 
